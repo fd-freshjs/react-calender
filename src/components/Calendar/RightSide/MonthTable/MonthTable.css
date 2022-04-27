@@ -1,0 +1,13 @@
+.cell {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+    width: 35px;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
