@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Day() {
+function Day(props) {
   return (
-    <div className="cell">Day</div>
+    <div className="cell">{
+      props.number
+    }</div>
   )
 }
 

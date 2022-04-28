@@ -3,17 +3,9 @@ import Day from './Day';
 import './Week.css';
 
 function Week(props) {
-  console.log(props);
-
   return (
     <div className="row">
-      <Day />
-      <Day />
-      <Day />
-      <Day />
-      <Day />
-      <Day />
-      <Day />
+      {props.datesArray.map(n => <Day number={n} date />)}
     </div>
   );
 }
